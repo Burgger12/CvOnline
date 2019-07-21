@@ -9,46 +9,50 @@
     <link rel="stylesheet" href="/animate.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <title>Inicio</title>
+    <title>Cv Online</title>
 </head>
 <body>
     <header id="Inicio">
-        <nav class="navbar ">
-            <div class="container">
-                <div class="align-left">
-                    <h3 id="Logo">Agustin Diaz</h3>
-                </div>
-                <div class="align-right">
-                    <button class="navbar-toggler menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="icon fa fa-bars"></i>
-                    </button>
-                </div>
-            </div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <div class="row d-flex close container mt-3">
-                    <i class="fas fa-times fa-2x ml-auto"></i>
-                </div>
-                <div class="items-menu text-center">
-                    <a href="#Info" class="nav-item nav-link"><h1>Datos personales</h1></a>
-                    <a href="#Educacion" class="nav-item nav-link"><h1>Educación</h1></a>
-                    <a href="#Informatica" class="nav-item nav-link"><h1>Informatica</h1></a>
-                    <a href="#Frameworks" class="nav-item nav-link"><h1>Frameworks</h1></a>
-                </div>
-            </div>
+        <nav class="navbar navbar-expand-lg">
+            <button class="navbar-toggler menu ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="icon fa fa-bars"></i>
+            </button>
         </nav>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <div class="close ">
+                <i class="fas fa-times fa-1x"></i>
+            </div>
+            <div class="items-menu text-center">
+                <a href="#Info" class="nav-item nav-link"><h1>Datos personales</h1></a>
+                <a href="#Educacion" class="nav-item nav-link"><h1>Educación</h1></a>
+                <a href="#Informatica" class="nav-item nav-link"><h1>Informatica</h1></a>
+                <a href="#Frameworks" class="nav-item nav-link"><h1>Frameworks</h1></a>
+            </div>
+        </div>
         <section class="center">
-            <div class="main">
-                <img src="img/jefferson-santos-9SoCnyQmkzI-unsplash.jpg">
-                <h1 class="titulo-img">Desarrollador Jr.</h1>
+            <div class="main text-center">
+                <div class="titulo">
+                    <h1>Diaz,Carlos Agustin</h1>
+                </div>
+                <div class="subtitulo">
+                    <h2>Desarrollador Jr.</h2>
+                </div>
+                <div class="d-none d-lg-flex mt-3">
+                    <a href="" class="nav-item nav-link in"><h3>Inicio</h3></a>
+                    <a href="#Info" class="nav-item nav-link"><h3>Datos</h3></a>
+                    <a href="#Educacion" class="nav-item nav-link"><h3>Educación</h3></a>
+                    <a href="#Informatica" class="nav-item nav-link"><h3>Informatica</h3></a>
+                    <a href="#Frameworks" class="nav-item nav-link"><h3>Frameworks</h3></a>
+                </div>
+            </div>
+            <div class="bajar">
+                <a href="#Info"><i class="fas fa-chevron-down fa-2x"></i></a>    
             </div>
         </section>
-        <div class="bajar">
-            <a href="#Info"><i class="fas fa-chevron-down"></i></a>    
-        </div>
     </header>
     <div class="slide"></div>
-    <div class="data ">
-        <section id="Info" class="container">
+    <div class="data container">
+        <section id="Info">
             <div class="row">
                 <div class="col-12">
                     <h1 class="titulo">Mis datos</h1>
@@ -58,7 +62,7 @@
                 <div class="col-12 col-xs-12 col-md-12 col-lg-6 wow fadeInDown" >
                     <img src="/img/undraw_profile_6l1l.svg" class="img-svg align-middle" alt="">
                 </div>
-                <div class="col-12 col-xs-12 col-md-12 col-lg-6 mt-4 wow fadeInDown" >
+                <div class="col-12 col-xs-12 col-md-12 col-lg-6 mt-4 wow fadeInDown d-xs-block" >
                     <h4>Nombre: <span class="text-muted">Diaz, Carlos Agustin</span></h4>
                     <h4>D.N.I: <span class="text-muted">40.906.482</span></h4>
                     <h4>Lugar de nacimiento: <span class="text-muted">Dean Funes, Córdoba</span></h4>
@@ -70,7 +74,7 @@
                 </div>
             </div>
         </section>
-        <section id="Educacion" class="container">
+        <section id="Educacion">
             <div class="row ">
                 <div class="col-12">
                     <h1 class="titulo">Mi educación</h1>
@@ -96,12 +100,12 @@
                 </div>
             </div>
         </section>
-        <section id="Informatica" class="container">
+        <section id="Informatica">
             <div class="row ">
                 <div class="col-12">
                     <h1 class="titulo">Informatica</h1>
                 </div>
-            </div>
+            </div>   
             <div class="row mt-3">
                 <div class="col-12 col-xs-12 col-md-12 col-lg-6 wow fadeInDown" >
                     <img src="/img/undraw_percentages_0rur.svg" class="img-svg align-middle" alt="">
@@ -153,7 +157,7 @@
                 </div>
             </div>
         </section>
-        <section id="Frameworks" class="container">
+        <section id="Frameworks">
             <div class="row mt-3">
                 <div class="col-12">
                     <h1 class="titulo">Frameworks/Librerias</h1>
@@ -200,7 +204,7 @@
                 </div>
             </div>
         </section>
-        <section class="container" id="perfil">
+        <section id="perfil">
             <div class="row">
                 <div class="col-6 wow fadeInDown" >
                     <div class="cont-link bg-bar ml-auto mr-5 ">
@@ -232,7 +236,6 @@
             animateClass: 'animated',
             offset:       100,
             callback:     function(box) {
-            console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
             }
         }
         );
