@@ -5,7 +5,6 @@ const menu = document.querySelector('.menu');
 const TituloImagen = document.querySelector('.titulo-img');
 const TituloInfo = document.querySelector('.titulo');
 const arrow = document.querySelector('.fa-chevron-down');
-
 var tl = new TimelineMax();
 
 tl.fromTo(main,1,{height:"0%"}, {height:"80%", ease:Power2.easeInOut})

@@ -10,22 +10,29 @@ header{
     width: 100%;
     min-height: 100vh;
     position: relative;
+    background-image: linear-gradient(to bottom, #86a8e7, #71b9f5, #59cafd, #45daff, #41e9fd, #61effd, #79f5fe, #8efbff, #b2faff, #d7f9ff, #f3faff, #ffffff);
 }
 nav{
     align-items: center;
     min-height: 10vh !important;    
-    color: black;
-    background-color: white;
+    color: white;
+}
+.fa-bars{
+    color:white;
 }
 .navbar-collapse {
     height: 100vh;
     min-width: 100vw;
-    background-color: white;
+    background-image: linear-gradient(to bottom, #86a8e7, #71b9f5, #59cafd, #45daff, #41e9fd, #61effd, #79f5fe, #8efbff, #b2faff, #d7f9ff, #f3faff, #ffffff);
     position: absolute;
     top: 0;
     z-index: 5;
     margin: 0;
     left:0;
+    position: fixed;
+}
+.navbar-collapse::after{
+    position: fixed;
 }
 .items-menu{
     position: absolute;
@@ -34,13 +41,15 @@ nav{
     transform: translate(-50%,-50%);
 }
 .nav-link{
-    color: black;
+    color: white;
 }
 .close{
     position: absolute;
+
 }
 .close i {
     cursor: pointer;
+    color:white;
 }
 span .fas {
     font-size: 1.5em;
