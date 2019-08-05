@@ -77,7 +77,7 @@ span .fas {
 } 
 .main{
     position: absolute;
-    top: calc(50% - 10vh);
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
