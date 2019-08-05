@@ -51,9 +51,9 @@ span .fas {
 }
 .bajar{
     position: absolute;
-    top:85%;
+    top:82%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -80%);
 }
 .bajar a i, .bajar-md a i{
     color:white !important;
