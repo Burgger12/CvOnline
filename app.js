@@ -1,6 +1,6 @@
  const main = document.querySelector('.main');
  const slide = document.querySelector('.slide');
- const arrow = document.querySelector('.fa-chevron-down');
+ const arrow = document.querySelector('#fa-chevron-down');
  var tl = new TimelineMax();
 
  tl.fromTo(slide, 1.2,{x:'-100%'}, {x:'0%',ease:Power2.easeInOut})

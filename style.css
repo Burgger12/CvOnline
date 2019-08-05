@@ -38,18 +38,24 @@ span .fas {
 } 
 .main{
     position: absolute;
-    top: 40%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%,-50%);
     color: white;
 }
+.bajar-md{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 .bajar{
     position: absolute;
-    top:80%;
+    top:85%;
     left: 50%;
-    transform: translate(-50%, -80%);
+    transform: translate(-50%, -70%);
 }
-.bajar a i{
+.bajar a i, .bajar-md a i{
     color:white !important;
 }
 .nav-link:hover{
