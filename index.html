@@ -10,236 +10,128 @@
       rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One&display=swap" rel="stylesheet">
     <title>Diaz Carlos Agustin</title>
 </head>
 <body>
-    <header >
+    <header>
         <nav>
-            <a href="/">Agustin Diaz</a>
-            <button class="btn btn-menu">
-                <i class="material-icons">
-                    menu
-                </i>
-            </button>
+            <h1 class="brand">Agustin</h1>
+            <div class="hamburger">
+                <i class="fas fa-bars fa-2x"></i>
+            </div>
         </nav>
-        <div class="Head">
-            <div class="centro">
-                <h4>Soy</h4>
-                <h1>Agustin</h1>
-                <h4>Desarrollador Jr</h4>
+        <section class="izquierda">
+            <div class="center">
+                <h1>I´m</h1>
+                <h1>Agustin Diaz</h1>
+                <h2>DEVELOPER JR</h2>
             </div>
-        </div>
-        <div class="hide" id="menu">
-            <div class="close ">
-                <button class=" btn btn-menu">
-                    <i class="material-icons">
-                        close
-                    </i>
-                </button>
+        </section>
+        <section class="derecha">
+            <div class="redes">
+                <a href="https://www.instagram.com/agustin_diaz_20/" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://github.com/DiazCarlosAgustin" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/carlos-agustín-díaz-9909aa169" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
             </div>
-            <div class="links">
-                <a href="/">Inicio</a>
-                <a href="#datos-personales">Datos</a>
-                <a href="#educacion">Educacion</a>
-                <a href="#cursos">Cursos</a>
-                <a href="#informatica">Informatica</a>
-                <a href="#otros">Otros</a>
-            </div>
+        </section>
+        <div class="menu hide">
+           <div class="items">
+                <a href="#trabajo">Experiencia</a>
+                <a href="#educacion">Educación</a>
+                <a href="#skills">Skills</a>
+           </div>
         </div>
     </header>
-    <section class="datos-personales" id="datos-personales">
-        <div class="datos-titulo">
-            Datos personales
+    <section class="trabajo" id="trabajo">
+        <div class="titulo">
+            Experiencia
         </div>
-        <div class="datos-left">
-            <img src="./perfil.svg" alt="perfil" srcset="">
-        </div>
-        <div class="datos-right">
-            <p>Nombre: <span>Díaz Carlos Agustín</span></p>
-            <p>D.N.I: <span>40.906.482</span></p>
-            <p>Lug. Nacimiento: <span>Dean Funes (CBA)</span></p>
-            <p>Fec. Nacimiento: <span>08/05/1998</span></p>
-            <p>Domicilio: <span>Gral. Juan José Viamonte 672, Córdoba</span></p>
-            <p>Nacionalidad: <span>Argentina</span></p>
-            <p>Telefono: <span>(3521) - 407811</span></p>
-            <p>Mail: <span>carlos.agustin.diaz1998@gmail.com</span></p>
+        <div class="trabajos">
+            <div class="empresa">
+                <div class="nombre">Dicsys</div>
+                <div class="fecha">Sep 2019 - Actual</div>
+                <div class="puesto">
+                    <div class="posicion">
+                        Analista de Testing para Claro
+                    </div>
+                    <div class="trabajando">
+                        PL/SQL, Oracle Forms, Report, SQL.
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     <section class="educacion" id="educacion">
-        <div class="educacion-titulo">
+        <div class="titulo">
             Educación
         </div>
-        <div class="educacion-left">
-            <div>
-                <p>2009-2015 INSTITUTO PRIVADO de ENSEÑANZAS Quilino</p>
-                <span>Bachiller orientado en Administración y Economía</span>
-            </div>
-            <div>
-                <p>2016-20XX IES Siglo 21, Córdoba</p>
-                <span>Técnico Analista de Sistemas de Computación </span>
-            </div>
-        </div>
-        <div class="educacion-right">
-            <img src="./undraw_Graduation_ktn0.svg" alt="educacion" srcset="">
-        </div>
-    </section>
-    <section class="cursos" id="cursos">
-        <div class="cursos-titulo">
-            Cursos
-        </div>
-        <div class="cursos-realizados">
-            <div>
-                <p>Abril 2019 - Agosto 2019</p>
-                <p >Cursos capacitacion de B.I brindado por DICSYS</p>
-                <span>Temas: SQL, PL/SQL, SSIS, MicroStrategy, Forms, Reports, SAS, Maquetaciòn, entre otros... </span>
-            </div>
-            <div>
-                <p>Julio 2019 - Agosto 2019</p>
-                <p >Cursos intensivo brindado por DICSYS para testing</p>
-                <span>Temas: PL/SQL,  Forms, Reports</span>
-            </div>
-        </div>
-    </section>
-    <section class="informatica" id="informatica">
-        <div class="informatica-titulo">
-            Informatica
-        </div>
-        <div class="informatica-left">
-            <img src="./undraw_programming_2svr.svg" alt="informatica" srcset="">
-        </div>
-        <div class="informatica-right">
-            <div class="skill">
-                <p>Java</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 40%">
-                        <span>40%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>Vb.net</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 50%">
-                        <span>50%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>Css</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 45%">
-                        <span>45%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>HTML</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 70%">
-                        <span>70%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>PHP</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 30%">
-                        <span>30%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>JavaScript</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 40%">
-                        <span>40%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>SQL, mysql</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 50%">
-                        <span>50%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>PL/SQL</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 50%">
-                        <span>50%</span>
+        <div class="colegios">
+            <div class="colegio">
+                <div class="nombre">IES Siglo21</div>
+                <div class="fecha">2016 - Actual</div>
+                <div class="certificacion">
+                    <div class="posicion">
+                        Tec. Analista en sistemas de computación
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="frameworks" id="otros">
-        <div class="framework-titulo" >
-            Otros
+    <section class="skills" id="skills">
+        <div class="titulo">
+            skills
         </div>
-        <div class="framework-left">
-            <div class="skill">
-                <p>react</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 20%">
-                        <span>20%</span>
-                    </div>
-                </div>
+        <div class="lenguajes">
+            <div class="subtitulo">
+                Lenguajes
             </div>
-            <div class="skill">
-                <p>Vue.js</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 40%">
-                        <span>40%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>Laravel</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 30%">
-                        <span>30%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>Jquery</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 50%">
-                        <span>50%</span>
-                    </div>
-                </div>
-            </div>
-            <div class="skill">
-                <p>Bootstrap</p>
-                <div class="progress">
-                    <div class="progreso" style="width: 60%">
-                        <span>60%</span>
-                    </div>
-                </div>
-            </div>
+            <ul>
+                <li>PHP</li>
+                <li>JAVA</li>
+                <li>JAVASCRIPT</li>
+                <li>SQL</li>
+                <li>PL/SQL</li>
+                <li>VB.NET</li>
+                <li>PYTHON</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
         </div>
-        <div class="framework-right">
-            <img src="./undraw_percentages_0rur.svg" alt="">
+        <div class="herramientas">
+            <div class="subtitulo">
+                Herramientas
+            </div>
+            <ul>
+                <li>GIT</li>
+                <li>GITHUB</li>
+                <li>ADOBE XD</li>
+                
+            </ul>
+        </div>
+        <div class="frameworks">
+            <div class="subtitulo">
+                Frameworks
+            </div>
+            <ul>
+                <li>LARAVEL</li>
+                <li>VUE.JS</li>
+                <li>REACT</li>            
+            </ul>
         </div>
     </section>
-    <section class="perfiles">
-        <div class="row">
-            <div class="col" >
-                <div class="cont-link ">
-                    <a href="https://www.linkedin.com/in/carlos-agustín-díaz-9909aa169/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                </div>
-            </div>
-            <div class="col" >
-                <div class="cont-link bg-bar mr-auto ml-5">
-                    <a href="https://github.com/DiazCarlosAgustin" target="_blank"><i class="fab fa-github fa-2x"></i></i></a>
-                </div>
-            </div>
-        </div>
-    </section>
+
+    <footer class="footer">
+        <p>© Agustin Diaz 2019</p>
+    </footer>
+
     <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
