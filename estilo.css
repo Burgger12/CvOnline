@@ -291,6 +291,7 @@ li{
     }
     header{
         grid-template-columns: 10% 1fr 10%;
+        height:calc(100vh - 3vh);
     }
     .derecha{
         grid-column:2;
