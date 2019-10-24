@@ -292,7 +292,7 @@ li{
     }
     header{
         grid-template-columns: 10% 1fr 10%;
-        height:calc(100vh - 3vh);
+        height:calc(100vh - 5vh);
     }
     .derecha{
         grid-column:2;
