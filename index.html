@@ -4,242 +4,165 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="/animate.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="estilo.css">
+    <!-- iconos -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css">
-    <title>Cv Online</title>
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Fjalla+One&display=swap" rel="stylesheet">
+    <title>Diaz Carlos Agustin</title>
 </head>
 <body>
-    <header id="Inicio">
-        <nav class="navbar navbar-expand-lg">
-            <button class="navbar-toggler menu ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="icon fa fa-bars"></i>
-            </button>
-        </nav>
-        <div class="collapse navbar-collapse " id="navbarSupportedContent">
-            <div class="close ">
-                <i class="fas fa-times fa-1x"></i>
+    <header>
+        <nav>
+            <h1 class="brand">Agustin</h1>
+            <div class="hamburger">
+                <i class="fas fa-bars fa-2x"></i>
             </div>
-            <div class="items-menu text-center">
-                <a href="#Info" class="nav-item nav-link"><h1>Datos personales</h1></a>
-                <a href="#Educacion" class="nav-item nav-link"><h1>Educación</h1></a>
-                <a href="#Informatica" class="nav-item nav-link"><h1>Informatica</h1></a>
-                <a href="#Frameworks" class="nav-item nav-link"><h1>Frameworks</h1></a>
+        </nav>
+        <section class="izquierda">
+            <div class="center">
+                <h1>I´m</h1>
+                <h1>Agustin Diaz</h1>
+                <h2>DEVELOPER JR</h2>
+            </div>
+        </section>
+        <div class="menu hide">
+           <div class="items">
+                <a href="#trabajo">Experiencia</a>
+                <a href="#educacion">Educación</a>
+                <a href="#skills">Skills</a>
+                <a href="#redes">Redes</a>
+           </div>
+        </div>
+    </header>
+    <section class="trabajo" id="trabajo">
+        <div class="titulo">
+            Experiencia
+        </div>
+        <div class="trabajos">
+            <div class="empresa">
+                <div class="nombre">Dicsys</div>
+                <div class="fecha">Sep 2019 - Actual</div>
+                <div class="puesto">
+                    <div class="posicion">
+                        Analista de Testing para Claro
+                    </div>
+                    <div class="trabajando">
+                        PL/SQL, Oracle Forms, Report, SQL.
+                    </div>
+                </div>
             </div>
         </div>
-        <section class="center">
-            <div class="main text-center">
-                <div class="titulo">
-                    <h1>Diaz,Carlos Agustin</h1>
-                </div>
-                <div class="subtitulo">
-                    <h2>Desarrollador Jr.</h2>
-                </div>
-                <div class="d-none d-lg-flex mt-3">
-                    <a href="" class="nav-item nav-link in"><h3>Inicio</h3></a>
-                    <a href="#Info" class="nav-item nav-link"><h3>Datos</h3></a>
-                    <a href="#Educacion" class="nav-item nav-link"><h3>Educación</h3></a>
-                    <a href="#Informatica" class="nav-item nav-link"><h3>Informatica</h3></a>
-                    <a href="#Frameworks" class="nav-item nav-link"><h3>Frameworks</h3></a>
-                </div>
-            </div>
-            <div class="bajar">
-                <a href="#Info"><i class="fas fa-chevron-down fa-2x"></i></a>    
-            </div>
-        </section>
-    </header>
-    <div class="slide"></div>
-    <div class="data container">
-        <section id="Info">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="titulo">Mis datos</h1>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-12 col-xs-12 col-md-12 col-lg-6 wow fadeInDown" >
-                    <img src="/img/undraw_profile_6l1l.svg" class="img-svg align-middle" alt="">
-                </div>
-                <div class="col-12 col-xs-12 col-md-12 col-lg-6 mt-4 wow fadeInDown d-xs-block" >
-                    <h4>Nombre: <span class="text-muted">Diaz, Carlos Agustin</span></h4>
-                    <h4>D.N.I: <span class="text-muted">40.906.482</span></h4>
-                    <h4>Lugar de nacimiento: <span class="text-muted">Dean Funes, Córdoba</span></h4>
-                    <h4>Fecha de nacimiento: <span class="text-muted">08-05-1998</span></h4>
-                    <h4>Domicilio: <span class="text-muted">Gral. Viamonte 672, Córdoba</span></h4>
-                    <h4>Nacionalidad: <span class="text-muted">Argentina</span></h4>
-                    <h4>Telefono: <span class="text-muted">(3521) 407811</span></h4>
-                    <h4>Correo: <span class="text-muted">carlos.agustin.diaz1998@gmail.com</span></h4>
-                </div>
-            </div>
-        </section>
-        <section id="Educacion">
-            <div class="row ">
-                <div class="col-12">
-                    <h1 class="titulo">Mi educación</h1>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-12 col-xs-12 col-md-12 d-xs-block d-lg-none wow fadeInDown" >
-                    <img src="/img/undraw_Graduation_ktn0.svg" class="img-svg align-middle" alt="">
-                </div>
-                <div class="col-12 col-xs-12 col-md-12 col-lg-6 mt-4 wow fadeInDown" >
-                    <div class="secu my-3">
-                        <h4>2009-2015 Instituto privado de enseñansas Quilino</h4>
-                        <h5 class="text-muted ml-2">Bachiller orientado a Administración y Economía</h5>
-                    </div>
-                    <div class="facu my-3">
-                        <h4>2016-20XX IES Siglo 21, Córdoba</h4>
-                        <h5 class="text-muted ml-2">Tecnico analista de sistemas de computación</h5>
-                    </div>
-            
-                </div>
-                <div class="col-12 col-lg-6 d-none d-lg-flex wow fadeInDown" >
-                    <img src="/img/undraw_Graduation_ktn0.svg" class="img-svg align-middle" alt="">
-                </div>
-            </div>
-        </section>
-        <section id="Informatica">
-            <div class="row ">
-                <div class="col-12">
-                    <h1 class="titulo">Informatica</h1>
-                </div>
-            </div>   
-            <div class="row mt-3">
-                <div class="col-12 col-xs-12 col-md-12 col-lg-6 wow fadeInDown" >
-                    <img src="/img/undraw_percentages_0rur.svg" class="img-svg align-middle" alt="">
-                </div>
-                <div class="col-12 col-xs-12 col-md-12 col-lg-6 wow fadeInDown"  >
-                    <div class="my-3">
-                        <h6>Html</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-75 bg-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Css</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-30 bg-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Php</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-40 bg-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Vb.net</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-70 bg-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Javascript</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-30 bg-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Sql / MySql</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-40 bg-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Java</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-45 bg-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-            
-                </div>
-            </div>
-        </section>
-        <section id="Frameworks">
-            <div class="row mt-3">
-                <div class="col-12">
-                    <h1 class="titulo">Frameworks/Librerias</h1>
-                </div>
-            </div>
-            <div class="row mt-3">
-                <div class="col-12 col-xs-12 col-md-12 d-xs-block d-lg-none wow fadeInDown" >
-                    <img src="/img/undraw_programming_2svr.svg" class="img-svg align-middle" alt="">
-                </div>
-                <div class="col-12 col-xs-12 col-md-12 col-lg-6 wow fadeInDown" >
-                    <div class="my-3">
-                        <h6>Vue.js</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-40 bg-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Laravel</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-30 bg-bar" role="progressbar" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>React</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-20 bg-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Jquery</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-50 bg-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                    <div class="my-3">
-                        <h6>Bootstrap</h6>
-                        <div class="progress">
-                            <div class="progress-bar w-60 bg-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-6 d-none d-lg-flex wow fadeInDown" >
-                    <img src="/img/undraw_programming_2svr.svg" class="img-svg align-middle" alt="">
-                </div>
-            </div>
-        </section>
-        <section id="perfil">
-            <div class="row">
-                <div class="col-6 wow fadeInDown" >
-                    <div class="cont-link bg-bar ml-auto mr-5 ">
-                        <a href="https://www.linkedin.com/in/carlos-agustín-díaz-9909aa169/" target="_blank"><i class="fab fa-linkedin-in fa-2x"></i></a>
-                    </div>
-                </div>
-                <div class="col-6 wow fadeInDown" >
-                    <div class="cont-link bg-bar mr-auto ml-5">
-                        <a href="https://github.com/Burgger12" target="_blank"><i class="fab fa-github fa-2x"></i></i></a>
+    </section>
+    <section class="educacion" id="educacion">
+        <div class="titulo">
+            Educación
+        </div>
+        <div class="colegios">
+            <div class="colegio">
+                <div class="nombre">IES Siglo21</div>
+                <div class="fecha">2016 - Actual</div>
+                <div class="certificacion">
+                    <div class="posicion">
+                        Tec. Analista en sistemas de computación
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
-    <footer class="text-center">
-        <p class="my-auto py-4"><i class="far fa-copyright"></i> Derechos reservados - 2019</p>
+        </div>
+    </section>
+    <section class="educacion" id="educacion">
+        <div class="titulo">
+            Cursos
+        </div>
+        <div class="colegios">
+            <div class="colegio">
+                <div class="nombre">Dicsys</div>
+                <div class="fecha">Abril - Ago 2019</div>
+                <div class="certificacion">
+                    <div class="posicion">
+                        Curso de capacitación de Dicsys en: Forms, Report, SSIS, SAS, Microstrategy, SQL, PL/SQL...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="titulo">
+            skills
+        </div>
+        <div class="lenguajes">
+            <div class="subtitulo">
+                Lenguajes
+            </div>
+            <ul>
+                <li>PHP</li>
+                <li>JAVA</li>
+                <li>JAVASCRIPT</li>
+                <li>SQL</li>
+                <li>PL/SQL</li>
+                <li>VB.NET</li>
+                <li>PYTHON</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+        </div>
+        <div class="herramientas">
+            <div class="subtitulo">
+                Herramientas
+            </div>
+            <ul>
+                <li>GIT</li>
+                <li>GITHUB</li>
+                <li>ADOBE XD</li>
+                
+            </ul>
+        </div>
+        <div class="frameworks">
+            <div class="subtitulo">
+                Frameworks
+            </div>
+            <ul>
+                <li>LARAVEL</li>
+                <li>VUE.JS</li>
+                <li>REACT</li>            
+            </ul>
+        </div>
+    </section>
+    <section id="redes">
+        <div class="instagram">
+            <div class="box">
+                <a href="https://www.instagram.com/agustin_diaz_20/" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="github">
+            <div class="box">
+                <a href="https://github.com/DiazCarlosAgustin" target="_blank">
+                    <i class="fab fa-github fa-2x"></i>
+                </a>
+            </div>
+        </div>
+        <div class="linkedin">
+            <div class="box">
+                <a href="https://www.linkedin.com/in/carlos-agustín-díaz-9909aa169" target="_blank">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p>© Agustin Diaz 2019</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TimelineMax.min.js"></script>
-    <script src="/app.js"></script>
-    <script src="/wow.min.js"></script>
-    <script>
-        wow = new WOW(
-        {
-            animateClass: 'animated',
-            offset:       100,
-            callback:     function(box) {
-            }
-        }
-        );
-        wow.init();
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
     </script>
+    <script src="./app.js"></script>
 </body>
 </html>
